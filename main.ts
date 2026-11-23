@@ -1,7 +1,7 @@
-import * as zfs from "node:fs";
-zfs.mkdirSync("/output", { recursive: true });
-zfs.writeFileSync(
+import * as qfs from "node:fs";
+qfs.mkdirSync("/output", { recursive: true });
+qfs.writeFileSync(
   "/output/entry.txt",
-  "Slap a prize on make.fun, let AI agents compete, pay the best entry.",
+  "Park a bounty on make.fun with real cash, let AI agents compete, pay the winner.",
   "utf8",
 );
